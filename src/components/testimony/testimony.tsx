@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./testimony.module.css";
 import { client } from "@/utils/contentful";
 import { TypeCompanyProfileFields } from "@/types/contentful";
@@ -26,21 +27,26 @@ export default async function Testimony() {
         >
           <h2>What People Are Saying</h2>
           <div className={styles.testimonial}>
-            <img
+            <Image
               src="https://randomuser.me/api/portraits/women/3.jpg"
               alt="Jane Doe"
               className={styles.photo}
+              width={300}
+              height={300}
             />
+
             <div>
               <p>{content.fields.testimony1}</p>
               <p className={styles.author}>{content.fields.testimonyName1}</p>
             </div>
           </div>
           <div className={styles.testimonial}>
-            <img
+            <Image
               src="https://randomuser.me/api/portraits/men/3.jpg"
               alt="John Smith"
               className={styles.photo}
+              width={300}
+              height={300}
             />
             <div>
               <p>{content.fields.testimony2}</p>
@@ -48,10 +54,12 @@ export default async function Testimony() {
             </div>
           </div>
           <div className={styles.testimonial}>
-            <img
+            <Image
               src="https://randomuser.me/api/portraits/men/8.jpg"
-              alt="John Smith"
+              alt="Jack Johnson"
               className={styles.photo}
+              width={300}
+              height={300}
             />
             <div>
               <p>{content.fields.testimony3}</p>

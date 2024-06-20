@@ -4,6 +4,9 @@ const nextConfig = {
     CONTENTFUL_SPACE_ID: "1b4gvbyu7471",
     CONTENTFUL_ACCESS_TOKEN: "L_5TD4TvVufzP6SKNSJ1WqqaiL9n5XgDS1O71gjyKB8",
   },
+  images: {
+    domains: ["randomuser.me"],
+  },
 };
 
 export default nextConfig;

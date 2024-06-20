@@ -3,7 +3,7 @@ import styles from "./footer.module.css";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>&copy; 2024 Nico's Craft. All rights reserved.</p>
+      <p>&copy; 2024 Nico&apos;s Craft. All rights reserved.</p>
       <ul className={styles.footerLinks}>
         <li>
           <a href="#privacy">Privacy Policy</a>

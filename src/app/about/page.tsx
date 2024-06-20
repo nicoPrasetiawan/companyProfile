@@ -1,3 +1,4 @@
+import Image from "next/image";
 import classes from "./page.module.css";
 
 const teamMembers = [
@@ -40,7 +41,12 @@ export default function AboutFoodHub() {
         <div className={classes.teamMembers}>
           {teamMembers.map((member, index) => (
             <div key={index} className={classes.teamMember}>
-              <img src={member.img} alt={`${member.name}'s photo`} />
+              <Image
+                src={member.img}
+                alt={`${member.name}'s photo`}
+                width={300}
+                height={300}
+              />
               <p className={classes.name}>{member.name}</p>
               <p className={classes.role}>{member.role}</p>
             </div>

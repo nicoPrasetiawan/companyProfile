@@ -1,0 +1,1183 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1b4gvbyu7471"
+          }
+        },
+        "id": "blog2",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T09:52:50.866Z",
+        "updatedAt": "2024-06-18T09:52:51.425Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-18T09:52:51.425Z",
+        "firstPublishedAt": "2024-06-18T09:52:51.425Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1b4gvbyu7471/environments/master/content_types/blog2"
+      },
+      "displayField": "title",
+      "name": "Blog2",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "details",
+          "name": "Details",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "articleImage",
+          "name": "articleImage",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "createdAt",
+          "name": "createdAt",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1b4gvbyu7471"
+          }
+        },
+        "id": "companyProfile",
+        "type": "ContentType",
+        "createdAt": "2024-06-20T11:30:59.943Z",
+        "updatedAt": "2024-06-20T11:45:18.593Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2024-06-20T11:45:18.593Z",
+        "firstPublishedAt": "2024-06-20T11:31:00.501Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1b4gvbyu7471/environments/master/content_types/companyProfile"
+      },
+      "displayField": "title",
+      "name": "companyProfile",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "tagline",
+          "name": "tagline",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "menu1",
+          "name": "menu1",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "menu2",
+          "name": "menu2",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsTitle",
+          "name": "offeringsTitleFront",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsTitleSpan",
+          "name": "offeringsTitleSpan",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsHeader1",
+          "name": "offeringsHeader1",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsContent1",
+          "name": "offeringsContent1",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsHeader2",
+          "name": "offeringsHeader2",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsContent2",
+          "name": "offeringsContent2",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsHeader3",
+          "name": "offeringsHeader3",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "offeringsContent3",
+          "name": "offeringsContent3",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "testimonyTitle",
+          "name": "testimonyTitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "testimony1",
+          "name": "testimony1",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "testimonyName1",
+          "name": "testimonyName1",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "testimony2",
+          "name": "testimony2",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "testimonyName2",
+          "name": "testimonyName2",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "testimony3",
+          "name": "testimony3",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "testimonyName3",
+          "name": "testimonyName3",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "aboutTitle",
+          "name": "aboutTitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "aboutP1",
+          "name": "aboutP1",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "aboutP2",
+          "name": "aboutP2",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "1b4gvbyu7471",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-18T09:52:51.638Z",
+        "createdBy": {
+          "sys": {
+            "id": "2MKH9lHfQUZPuE4PnDVtL5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T09:52:52.634Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2MKH9lHfQUZPuE4PnDVtL5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blog2",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "details",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "articleImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "createdAt",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "1b4gvbyu7471",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 10,
+        "createdAt": "2024-06-20T11:31:00.807Z",
+        "createdBy": {
+          "sys": {
+            "id": "2MKH9lHfQUZPuE4PnDVtL5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-20T11:45:20.318Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2MKH9lHfQUZPuE4PnDVtL5",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "companyProfile",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "tagline",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "menu1",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "menu2",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsTitleSpan",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsHeader1",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsContent1",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsHeader2",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsContent2",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsHeader3",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "offeringsContent3",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimonyTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimony1",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimonyName1",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimony2",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimonyName2",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimony3",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "testimonyName3",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "aboutTitle",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "aboutP1",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "aboutP2",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1b4gvbyu7471"
+          }
+        },
+        "id": "6M2FluMiOEjfqGWJwChzlE",
+        "type": "Entry",
+        "createdAt": "2024-06-20T11:45:28.872Z",
+        "updatedAt": "2024-06-20T11:48:26.876Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2024-06-20T11:48:26.876Z",
+        "firstPublishedAt": "2024-06-20T11:48:26.876Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 22,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "companyProfile"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1b4gvbyu7471/environments/master/entries/6M2FluMiOEjfqGWJwChzlE"
+      },
+      "fields": {
+        "title": {
+          "en-US": "CULTURAL CUISINES FOR CULINARY EXPLORERS"
+        },
+        "tagline": {
+          "en-US": "Discover and Delight in Worldwide Flavors."
+        },
+        "menu1": {
+          "en-US": "Our Offerings"
+        },
+        "menu2": {
+          "en-US": "Explore Meals"
+        },
+        "offeringsTitle": {
+          "en-US": "Crafted for You:"
+        },
+        "offeringsTitleSpan": {
+          "en-US": " Our Top Offerings"
+        },
+        "offeringsHeader1": {
+          "en-US": "Meal Exploration"
+        },
+        "offeringsContent1": {
+          "en-US": "Discover new dishes from around the world and find inspiration for your next meal."
+        },
+        "offeringsHeader2": {
+          "en-US": "Community Engagement"
+        },
+        "offeringsContent2": {
+          "en-US": "Connect with other food lovers, participate in cooking challenges, and share it!"
+        },
+        "offeringsHeader3": {
+          "en-US": "Recipe Sharing"
+        },
+        "offeringsContent3": {
+          "en-US": "Share your favorite recipes with the community and explore others' culinary creations."
+        },
+        "testimonyTitle": {
+          "en-US": "What People Are Saying"
+        },
+        "testimony1": {
+          "en-US": "Food Hub is a wonderful platform. I have learned so many new recipes and met amazing people!"
+        },
+        "testimonyName1": {
+          "en-US": "- Jane Doe, Home Chef"
+        },
+        "testimony2": {
+          "en-US": "The variety of dishes and the community engagement here is top-notch. Highly recommend!"
+        },
+        "testimonyName2": {
+          "en-US": "- John Smith, Culinary Enthusiast"
+        },
+        "testimony3": {
+          "en-US": "Food Hub is a wonderful platform. I have learned so many new recipes and met amazing people!"
+        },
+        "testimonyName3": {
+          "en-US": "- Jane Doe, Home Chef"
+        },
+        "aboutTitle": {
+          "en-US": "About Food Hub"
+        },
+        "aboutP1": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Food Hub is a platform for food enthusiasts to share their favorite recipes with the world. Our mission is to connect culinary lovers and offer a space to discover new dishes, learn from diverse culinary traditions, and connect with fellow food enthusiasts.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "aboutP2": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "At Food Hub, we celebrate the rich tapestry of global cuisines and the stories behind them. Our community is a melting pot of flavors, techniques, and cultures, making it the perfect place for culinary explorers.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1b4gvbyu7471"
+          }
+        },
+        "id": "6c0ZMPLaf96O9KvxZEwh9M",
+        "type": "Asset",
+        "createdAt": "2024-06-12T12:51:59.171Z",
+        "updatedAt": "2024-06-12T12:55:18.291Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-12T12:55:18.291Z",
+        "firstPublishedAt": "2024-06-12T12:55:18.291Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/1b4gvbyu7471/environments/master/assets/6c0ZMPLaf96O9KvxZEwh9M"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Ilustration"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/1b4gvbyu7471/6c0ZMPLaf96O9KvxZEwh9M/bc661bac1369cfe82c61f7327581af4c/amongUs.png",
+            "details": {
+              "size": 297288,
+              "image": {
+                "width": 4096,
+                "height": 4096
+              }
+            },
+            "fileName": "amongUs.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "1dCVbZBIQXjfhrREhvpWUy",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1b4gvbyu7471"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "1f190eee-4f4f-498a-b1f7-1322b08fd559"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "createdAt": "2024-06-12T12:28:11Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "updatedAt": "2024-06-12T12:28:11Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "1dXa61cfyDJzTX34IEeRhw",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "1b4gvbyu7471"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "createdAt": "2024-06-12T12:28:11Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2MKH9lHfQUZPuE4PnDVtL5"
+          }
+        },
+        "updatedAt": "2024-06-12T12:28:11Z"
+      }
+    }
+  ]
+}

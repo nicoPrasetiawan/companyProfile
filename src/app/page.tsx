@@ -16,7 +16,7 @@ export default async function Home() {
     <>
       {/* sebenernya ga perlu fetch contentful, tapi pengen coba aja untuk latihan */}
       {contents?.map((content) => (
-        <header className={classes.header}>
+        <header className={classes.header} key={content.sys.id}>
           <div className={classes.slideshow}>
             <ImageSlideshow />
           </div>

@@ -1,0 +1,86 @@
+.aboutSection {
+  background-color: #1c1c1e; /* Dark background color */
+  color: #ffffff; /* White text color */
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1377px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutSection h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aboutSection p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #d3d3d3; /* Lighter text color */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; /* Adjust max-width for better readability */
+}
+
+.team {
+  margin-top: 40px;
+}
+
+.team h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.teamMembers {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Adjust the gap between team member cards */
+  flex-wrap: wrap;
+}
+
+.teamMember {
+  background: #2a2a2e;
+  padding: 25px;
+  border-radius: 8px;
+  margin: 10px;
+  max-width: 250px; /* Adjust max-width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #d3d3d3;
+  transition: transform 0.3s;
+}
+
+.teamMember:hover {
+  transform: translateY(-10px); /* lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.teamMember img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.teamMember .name {
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.teamMember .role {
+  font-size: 0.9em;
+  color: #a9a9a9;
+  margin-top: 3px;
+}

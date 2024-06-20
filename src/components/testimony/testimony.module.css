@@ -1,0 +1,51 @@
+.testimonialsSection {
+  padding: 40px 20px;
+  background-color: #282c34; /* Match the global background */
+  color: #f8f8f8; /* Light text for contrast */
+  text-align: center;
+}
+
+.testimonialsSection h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.testimonial {
+  background: #333; /* Slightly lighter dark background for cards */
+  border: 1px solid #444; /* Dark border */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for depth */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: transform 0.3s;
+}
+
+.testimonial p {
+  margin: 10px 0;
+  color: #ddd; /* Light grey text for readability */
+}
+
+.author {
+  font-style: italic;
+  color: #ff6347; /* Vibrant color for the author's name */
+}
+
+.photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff6347; /* Highlighting the photo */
+}
+
+.testimonial:hover {
+  transform: translateX(-10px); /* lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
